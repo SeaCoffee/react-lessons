@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import User from './User/User'
 
 const Users = () => {
     const [count, setCount] = useState([])
@@ -12,7 +13,7 @@ const Users = () => {
 
     return (
         <div>
-            {}
+            {count.map(user => <User key ={user.id} user={user}/>)}
         </div>
     );
 };
