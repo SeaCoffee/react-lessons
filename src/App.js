@@ -1,10 +1,12 @@
-import {Users} from "./components/Users/Users";
 
-import(Users)
+import {useState} from "react";
+
 const App = () => {
+
+
   return (
       <div>
-        <Users />
+
       </div>
   );
 };
