@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import React from 'react';
 import {useForm} from "react-hook-form";
 
-const NewUser = () => {
+const NewUser1 = () => {
 
 
 
@@ -40,6 +40,6 @@ const NewUser = () => {
 
 }
 
-export {NewUser}
+export {NewUser1}
 
 

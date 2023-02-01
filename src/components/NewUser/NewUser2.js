@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-const NewUser2 = () => {
+const NewUser22 = () => {
     let [registerForm, setregisterForm] = useState({login: '', password: ''})
 
     const onSubmit = (e) => {
@@ -38,4 +38,4 @@ const NewUser2 = () => {
 };
 
 
-export {NewUser2};
+export {NewUser22};

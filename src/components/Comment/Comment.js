@@ -1,6 +1,6 @@
 import {useForm} from "react-hook-form";
 
-const Comments = () => {
+const Comments1 = () => {
 
 
 
@@ -37,4 +37,4 @@ const Comments = () => {
   );
 
 }
-export {Comments};
+export {Comments1};
