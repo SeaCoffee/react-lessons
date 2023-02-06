@@ -12,6 +12,14 @@ const Menu = () => {
 
                 <Link to="/contacts">Contacts</Link>
 
+            <Link to="/todos">Todos</Link>
+
+            <Link to="/albums">Albums</Link>
+
+            <Link to="/comments">Comments</Link>
+
+            <Link to="comments/:commentId">SingleComment</Link>
+
 
 
 
