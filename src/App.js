@@ -1,17 +1,10 @@
-import {useReducer} from "react";
-import {Else} from "./Else";
 
+import {New} from "./NewReducer";
 
 const App = () => {
-
-
-
   return (
       <div>
-          <Else />
-
-
-
+        <New/>
       </div>
   );
 };
