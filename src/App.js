@@ -1,6 +1,6 @@
 import {useReducer} from "react";
-import {Form} from "./Form";
-import {MyComponent} from "./NewReducer";
+import {Else} from "./Else";
+
 
 const App = () => {
 
@@ -8,7 +8,7 @@ const App = () => {
 
   return (
       <div>
-          <MyComponent />
+          <Else />
 
 
 
