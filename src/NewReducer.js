@@ -19,7 +19,7 @@ function MyComponent() {
         // }
     // };
 
-    const initState = () =>  ({cats: [], dogs:[]})
+    const state = () =>  ({cats: [], dogs:[]})
 
     const[state, dispatch] = useReducer(reducer, "", initState)
 
